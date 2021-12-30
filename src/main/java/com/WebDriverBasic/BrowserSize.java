@@ -4,11 +4,11 @@ import org.openqa.selenium.Dimension;
 
 public class BrowserSize extends Browser{
     public static void main(String[] args) {
-        //chrome_launch();
+        chrome_launch();
         firefox_launch();
         get_browser_maximize_size();
-        //chrome_close();
-        //firefox_close();
+        chrome_close();
+        firefox_close();
         ipad();
     }
 

@@ -11,10 +11,10 @@ public class Browser {
     public static WebDriver driver;
 
     public static void main(String[] args) {
-        //chrome_launch();
+        chrome_launch();
         firefox_launch();
-        //chrome_close();
-        //firefox_close();
+        chrome_close();
+        firefox_close();
     }
 
     public static void chrome_launch(){
